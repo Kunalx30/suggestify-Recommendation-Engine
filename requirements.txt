@@ -1,0 +1,82 @@
+# ============================================================
+# Suggestify V2 — Python Dependencies
+# Python 3.10+ | RTX 3050 4GB GPU | 16GB RAM
+# ============================================================
+
+# --- FastAPI & Web ---
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.7
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+httpx==0.26.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# --- Database ---
+asyncpg==0.29.0
+sqlalchemy[asyncio]==2.0.25
+alembic==1.13.1
+psycopg2-binary==2.9.9
+
+# --- Redis ---
+redis==5.0.1
+hiredis==2.3.2
+
+# --- Kafka ---
+aiokafka==0.10.0
+confluent-kafka==2.3.0
+
+# --- Qdrant ---
+qdrant-client==1.7.3
+
+# --- ML — PyTorch (CUDA 12.1 for RTX 3050) ---
+# Install separately: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch==2.1.2
+torchvision==0.16.2
+numpy==1.26.3
+scipy==1.11.4
+scikit-learn==1.4.0
+
+# --- ML — Transformers & Embeddings ---
+sentence-transformers==2.3.1
+transformers==4.37.2
+tokenizers==0.15.1
+
+# --- Data Processing ---
+pandas==2.1.4
+pyarrow==14.0.2
+datasets==2.16.1      # HuggingFace datasets (Amazon Reviews 2023)
+huggingface-hub==0.20.3
+
+# --- Feature Store ---
+
+# --- Experiment Tracking ---
+mlflow==2.10.0
+
+# --- Monitoring ---
+prometheus-client==0.19.0
+prometheus-fastapi-instrumentator==6.1.0
+
+# --- Observability ---
+structlog==24.1.0
+rich==13.7.0
+
+# --- Utilities ---
+python-dotenv==1.0.0
+tqdm==4.66.1
+click==8.1.7
+orjson==3.9.10       # fast JSON
+
+# --- Contextual Bandits ---
+
+# --- SHAP (explainability) ---
+shap==0.44.1
+
+# --- Load Testing (Day 9) ---
+locust==2.20.1
+
+# --- Dev Tools ---
+pytest==7.4.4
+pytest-asyncio==0.23.3
+black==23.12.1
