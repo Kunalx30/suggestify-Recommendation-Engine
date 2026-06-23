@@ -64,7 +64,7 @@
 
 **📚 Books — Personalised Recommendations**
 
-![Model Quality](Screenshots/books_Screen.png)
+![Model Quality](Screenshots/books_Screenshot.png)
 
 </td>
 </tr>
