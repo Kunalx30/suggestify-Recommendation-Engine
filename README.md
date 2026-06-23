@@ -41,30 +41,30 @@
 
 **🏠 Home — Hero Banner + Carousels**
 
-![Home Page](docs/screenshots/home.png)
+![Home Page](Screenshots/Homescreen.png)
 
 </td>
 <td width="40%">
 
 **📊 Admin Panel — System Health**
 
-![Admin Panel](docs/screenshots/admin.png)
+![Admin Panel](Screenshots/Admin_Panel.png)
 
 </td>
 </tr>
 <tr>
 <td width="60%">
 
-**🎌 Anime — Personalised Recommendations**
+**📺 TV Shows — Personalised Recommendations**
 
-![Anime Page](docs/screenshots/anime.png)
+![Anime Page](Screenshots/TV_shows.png)
 
 </td>
 <td width="40%">
 
-**🤖 Model Quality Dashboard**
+**📚 Books — Personalised Recommendations**
 
-![Model Quality](docs/screenshots/model_quality.png)
+![Model Quality](Screenshots/books_Screen.png)
 
 </td>
 </tr>
@@ -608,7 +608,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-kunalchandelkar-181717?style=for-the-badge&logo=github)](https://github.com/kunalchandelkar)
+[![GitHub](https://img.shields.io/badge/GitHub-kunalchandelkar-181717?style=for-the-badge&logo=github)](https://github.com/kunalx30)
 
 <br/>
 
